@@ -1,0 +1,30 @@
+
+
+
+
+ /*Element selector*/
+ p{
+     color: hotpink;
+ }
+ h1{
+     text-align:center ;
+ }
+ span{
+     border:rgb(211, 13, 191) 3px solid;
+ }
+
+ /*ID selector*/
+ #border{
+     border:2px solid rgb(216, 200, 51);
+     border-radius: 12px;
+     width: 200px;;
+     text-align: center;
+ }
+
+ /*class Selector Selector*/
+ .design{
+     font-size: xx-large;
+     background-color: aquamarine;
+     color: blueviolet;
+ }
+

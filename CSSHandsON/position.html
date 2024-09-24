@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        #main{
+            width: 100%;
+            height: auto;
+            background-color: yellow;
+            padding: 10px;
+        }
+
+        #Box1,#Box2,#Box3,#Box4,#Box5{
+            height: 200px;
+            width: 200px;
+            text-align: center;
+            margin: 20px;
+        }
+        #Box1{
+            background-color: rgb(30, 250, 27);
+            position: static;
+            left:30px;/*can't work due to static*/
+
+
+        }
+        #Box2{
+            background-color: rgb(23, 99, 214);
+            position: relative;/* depend upon particular box*/
+            left: 100px;
+            top: 70px; 
+        }
+        #Box3{
+            background-color: rgb(222, 26, 108);
+            position: absolute;/* relative but body tag absolute*/
+            top:10px;
+            left: 400px;
+        }
+        #Box4{
+            background-color: chocolate;
+            position: fixed;
+            top:20px;
+            left: 400px;
+        }
+        #Box5{
+            position: sticky;
+             top: 0;
+            background-color: rgb(8, 8, 0);
+            padding: 10px;
+            font-size: 20px;
+        }
+    </style>
+    <div id="main">
+        <div ID="Box1">Box 1(Static)</div>
+        <div ID="Box1">Box 1(Static)</div>
+        <div ID="Box1">Box 1(Static)</div>
+        <div ID="Box2">Box 2(Relative)</div>
+        <div ID="Box2">Box 2(Relative)</div>
+        <div ID="Box3">Box 3(Absolute)</div>
+        <div ID="Box4">Box 4(fixed)</div>
+        <div ID="Box5">Box 5(sticky)</div>
+    </div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        #container{
+            width: 800px;
+            border:2px solid black;
+        }
+        #inner{
+            height: 50px;
+            width: 20px;
+            background-color: red;
+        }
+        #inner:hover{
+            width: 800px;
+            background-color: blueviolet;
+          transition:width background-color ;
+          transition-duration: 10s;
+          transition-delay: 3s;
+        }
+    </style>
+    <p>Transition in CSS</p>
+    <div id ="container">
+        <div id="inner">
+
+        </div>
+        
+    </div>
+</body>
+</html>

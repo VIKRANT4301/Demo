@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        
+        #one,#two,#three,#four{
+            background-color: rgb(31, 245, 92);
+            height: 100px;
+            width:100px;
+            margin:50px;
+        }
+
+        #one:hover{
+            transform: rotate(70deg);
+        }
+
+        #two:hover{
+            transform: rotateX(130deg);
+        }
+        #three:hover{
+            transform: skewY(30deg);
+           
+        }
+        #four:hover{
+            transform: translate(100px,25px);
+        }
+    </style>
+    <div id="root">
+  <div id="one"></div>
+  <div id="two"></div>
+  <div id="three"></div>
+  <div id="four"></div>
+  </div>
+</body>
+</html>

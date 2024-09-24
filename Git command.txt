@@ -1,0 +1,11 @@
+git --version
+git config --list
+git config --global user.mail "vikrantchakole36@gmail.com" //or use username
+git config --global user.name "VIKRANT4301"
+git config --list
+
+
+
+vs command
+git -v
+git init
